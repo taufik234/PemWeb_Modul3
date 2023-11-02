@@ -1,0 +1,78 @@
+/* CSS untuk semua elemen, termasuk komponen AboutUs */
+
+/* Styling untuk elemen #root */
+#root {
+    width: 100%;
+  }
+  
+  /* Styling untuk elemen dengan class .nav-custom */
+  .nav-custom {
+    font-size: 15px;
+    font-family: Tahoma, sans-serif;
+  }
+  
+  /* Styling untuk elemen dengan class .Hero */
+  .Hero {
+    padding: 250px 0;
+    background-image: url('../img/hero.jpg');
+    background-size: 100%;
+    color: #fff;
+    width: 100%;
+  }
+  
+  /* Styling untuk elemen dengan class .footer */
+  .footer {
+    font-size: 15px;
+    font-family: 'Gill Sans', sans-serif;
+  }
+  
+  /* Styling untuk elemen dengan class .contact */
+  .contact {
+    font-size: 17px;
+    font-family: Tahoma, sans-serif;
+    background-color: rgb(235, 235, 235);
+  }
+  
+  /* Styling untuk elemen dengan class .aboutus (dalam komponen AboutUs) */
+  .about-us-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .aboutus {
+    background-color: rgb(254, 255, 255);
+    font-size: 17px;
+    font-family: Tahoma, sans-serif;
+    padding: 20px;
+  }
+  
+  .aboutus img {
+    max-width: 50%;
+    height: auto;
+    margin-right: 20px;
+  }
+  
+  /* Gaya untuk tampilan layar kecil (responsif) */
+  @media (max-width: 767px) {
+    .aboutus {
+      text-align: center;
+    }
+    .aboutus img {
+      margin: 20px 0;
+    }
+  }
+  
+  /* Gaya untuk tampilan layar besar (layar penuh) */
+  @media (min-width: 768px) {
+    .aboutus {
+      display: flex;
+    }
+    .aboutus img {
+      margin-right: 20px;
+    }
+  }
+  
+  /* Tambahkan lebih banyak gaya sesuai kebutuhan Anda */
+  
